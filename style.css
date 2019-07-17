@@ -46,7 +46,7 @@ h1, h2 {
 }
 
 .social-icon:hover {
-  color: #7ad9f5;
+  color: #63aabc;
 }
 
 
@@ -90,4 +90,20 @@ ul {
   .container {
     width: 300px;
   }
+}
+
+
+#card-ruby {
+  background-image: linear-gradient(rgba(250,250,250,0.9),rgba(250,250,250,0.9)), url("images/ruby.jpeg");
+  background-size: contain;
+}
+
+#card-sql {
+  background-image: linear-gradient(rgba(250,250,250,0.9),rgba(250,250,250,0.9)), url("images/sql.png");
+  background-size: contain;
+}
+
+#card-bali {
+  background-image: linear-gradient(rgba(250,250,250,0.9),rgba(250,250,250,0.9)), url("images/bali.jpg");
+  background-size: contain;
 }
