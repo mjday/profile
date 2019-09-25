@@ -1,0 +1,16 @@
+.line-inline li {
+  display: inline;
+}
+
+.social-icon {
+  font-size: 4vw;
+}
+
+.social-icon:hover {
+  color: #63aabc;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
