@@ -10,6 +10,8 @@
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
      <link rel="stylesheet" type="text/css" href="css/style.css">
      <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
   </head>
 <body>
 
@@ -17,57 +19,69 @@
   <div class="d-flex justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">About</a>
-      <a class="nav-item nav-link" href="#">Work</a>
-      <a class="nav-item nav-link" href="#">Contact</a>
+      <a class="nav-item nav-link" href="#about">About</a>
+      <a class="nav-item nav-link" href="#work">Work</a>
+      <a class="nav-item nav-link" href="#contact">Contact</a>
     </div>
   </div>
 </nav>
 
-<div class="container typewriter">
-  <div class="row">
-    <div class="col-12">
-      <h2>Full Stack Web Development</h2>
+<div class=main-container>
+
+  <div class="container typewriter">
+    <div class="row">
+      <div class="col-12">
+        <h2>Full Stack Web Development</h2>
+      </div>
     </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 id="about">About</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 id="work">Work</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 id="contact">Contact</h2>
+      </div>
+    </div>
+  </div>
+
+
+  <div>
+    <ul class="line-inline">
+        <li>
+          <a href="https://github.com/mjday" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        </li>
+        <li>
+          <a href="#" target="_blank" class="social-icon"><i class="fab fa-medium"></i></a>
+        </li>
+      </ul>
   </div>
 </div>
 
-<div class="container" id="about">
-  <div class="row">
-    <div class="col-12">
-      <h2>About</h2>
-    </div>
-  </div>
-</div>
 
-<div class="container" id="work">
-  <div class="row">
-    <div class="col-12">
-      <h2>Work</h2>
-    </div>
-  </div>
-</div>
-
-<div class="container" id="contact">
-  <div class="row">
-    <div class="col-12">
-      <h2>Contact</h2>
-    </div>
-  </div>
-</div>
-
-
-<div>
-  <ul class="line-inline">
-      <li>
-        <a href="https://github.com/mjday" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
-      </li>
-      <li>
-        <a href="#" target="_blank" class="social-icon"><i class="fab fa-medium"></i></a>
-      </li>
-    </ul>
-    </div>
 </body>
+
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+          speed: 700
+  });
+
+</script>
 
 
 </html>
