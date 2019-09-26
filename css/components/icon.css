@@ -14,9 +14,21 @@
 
 .social-icon:hover {
   color: #115173;
+  transform: rotate(90deg);
 }
 
 ul {
   list-style: none;
   padding-inline-start: 0px;
+}
+
+.rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
 }
