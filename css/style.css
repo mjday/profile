@@ -3,6 +3,7 @@
 @import url("components/card.css");
 @import url("components/typewriter.css");
 @import url("components/icon.css");
+@import url("components/navbar.css");
 
 
 
@@ -21,6 +22,18 @@ h1, h2 {
   font-size: 3vw;
 }
 
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: #17223b;
+  font-size: 2vw;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1vw;
+}
+
 h2::before {
   display: block;
   content: " ";
@@ -31,11 +44,11 @@ h2::before {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
   height: 100vh;
-  justify-content: center;
+/*  justify-content: center;*/
 }
 
 
