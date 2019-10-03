@@ -3,50 +3,21 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: auto;
   grid-gap: 1.5vw;
-/*  height: 100vh;*/
   margin-left: 1.5vw;
   margin-right: 1.5vw;
 }
 
 .card-category {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
   height: 33vh;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 1px;
-  transition: all 0.5s;
-/*  -webkit-transition: all 0.5s;*/
-/*  box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
-  -webkit-filter: brightness(100%);
-  -moz-filter: brightness(100%);
-  -o-filter: brightness(100%);
-  -ms-filter: brightness(100%);
-  filter: brightness(100%);
   position: relative;
-}
-
-
-.card-category h3 {
-  display: flex;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  opacity: 0;
   transition: 0.5s;
-  color: white;
-  top: 50%;
 }
 
-.card-category:hover h3 {
-  z-index: 2;
-  opacity:1;
-  text-shadow: 0.5px 0.5px 0.5rem #252525;
-
+.card-category:hover {
+  transform: scale(1.05);
 }
 
 .card-category a {
@@ -55,23 +26,26 @@
   height: 100%;
   position: absolute;
   text-decoration: none;
-  z-index: 10;
 }
 
-.card-category:hover {
-  -webkit-filter: brightness(40%);
-  -moz-filter: brightness(40%);
-  -o-filter: brightness(40%);
-  -ms-filter: brightness(40%);
-  filter: brightness(40%);
-  transform: scale(1.05);
-  z-index: 1;
-  cursor: hand;
-  cursor: pointer;
+.text {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+  color: white;
 }
 
 
-
+.text:hover {
+  opacity:1;
+  text-shadow: 0.5px 0.5px 0.5rem #252525;
+}
 
 /*Media Queries*/
 
