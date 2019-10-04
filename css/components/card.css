@@ -47,11 +47,56 @@
   text-shadow: 0.5px 0.5px 0.5rem #252525;
 }
 
+
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: .5vw;
+  justify-items: center;
+}
+
+.contact-card {
+  overflow: hidden;
+  height: 10vh;
+  width: 75%;
+  box-shadow: 0 0 1px rgba(0,0,0,0.2);
+  display: flex;
+}
+
+.contact-card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-card i {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-card p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .5;
+  margin-bottom: 0;
+  margin-top: 0.5vh;
+}
+
+.contact-card-info {
+  align-items: left;
+  justify-content: left;
+}
+
+
 /*Media Queries*/
 
 /*Smallest device*/
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
+    grid-template-columns: 1fr;
+  }
+  .contacts {
     grid-template-columns: 1fr;
   }
 }
@@ -68,5 +113,8 @@
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .contacts {
+  grid-template-columns: 1fr 1fr 1fr;;
+}
 }
 
