@@ -43,6 +43,11 @@ p {
   height: 30vh;
 }
 
+.work p {
+  font-size: 0.8em;
+  opacity: .6;
+}
+
 
 
 

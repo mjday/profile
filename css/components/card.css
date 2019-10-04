@@ -59,7 +59,7 @@
   overflow: hidden;
   height: 10vh;
   width: 75%;
-  box-shadow: 0 0 1px rgba(0,0,0,0.2);
+/*  box-shadow: 0 0 1px rgba(0,0,0,0.2);*/
   display: flex;
 }
 
@@ -76,9 +76,8 @@
 }
 
 .contact-card p {
-  font-size: 12px;
-  line-height: 1.4;
-  opacity: .5;
+  font-size: 0.8em;
+  opacity: .6;
   margin-bottom: 0;
   margin-top: 0.5vh;
 }
