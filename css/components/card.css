@@ -64,7 +64,7 @@
 }
 
 .contact-card h2 {
-  font-size: 16px;
+  font-size: 1.2em;
   font-weight: bold;
   margin: 0;
 }
@@ -77,16 +77,27 @@
 
 .contact-card p {
   font-size: 0.8em;
-  opacity: .6;
+  opacity: .7;
   margin-bottom: 0;
   margin-top: 0.5vh;
 }
 
-.contact-card-info {
-  align-items: left;
-  justify-content: left;
+
+/*.contact {
+    height: 33vh;
+  width: 100%;
 }
 
+.icon {
+  height: 10%;
+  width: 10%;
+}
+
+.contact-details {
+  height: 10%;
+  width: 30%;
+}
+*/
 
 /*Media Queries*/
 
@@ -113,7 +124,7 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   .contacts {
-  grid-template-columns: 1fr 1fr 1fr;;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 }
 
