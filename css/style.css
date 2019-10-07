@@ -58,7 +58,7 @@ h3::before {
 }
 
 .contact-container {
-  height: 40vh;
+  min-height: 30vh;
 }
 
 .work p {
