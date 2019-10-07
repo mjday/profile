@@ -18,7 +18,6 @@ body {
 
 h1 {
   font-size: 3rem;
-
 }
 
 h2 {
@@ -55,7 +54,7 @@ h3::before {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .contact-container {
