@@ -59,7 +59,6 @@
   overflow: hidden;
   height: 10vh;
   width: 75%;
-/*  box-shadow: 0 0 1px rgba(0,0,0,0.2);*/
   display: flex;
 }
 
@@ -73,31 +72,15 @@
   font-size: 1.5em;
   font-weight: bold;
   margin: 0;
+  color: #336e7b;
 }
 
 .contact-card p {
   font-size: 0.8em;
   opacity: .7;
   margin-bottom: 0;
-  margin-top: 0.5vh;
 }
 
-
-/*.contact {
-    height: 33vh;
-  width: 100%;
-}
-
-.icon {
-  height: 10%;
-  width: 10%;
-}
-
-.contact-details {
-  height: 10%;
-  width: 30%;
-}
-*/
 
 /*Media Queries*/
 

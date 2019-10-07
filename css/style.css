@@ -5,12 +5,12 @@
 @import url("components/icon.css");
 @import url("components/navbar.css");
 @import url("components/banner.css");
-
+@import url("components/bubble.css");
 
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   background-color: rgb(240, 240, 240);
   color: #252525;
   text-align: center;
@@ -42,6 +42,16 @@ h3::before {
   height: 56px;
   visibility: hidden;
   pointer-events: none;
+}
+
+.small-text {
+  font-size: 0.8em;
+  opacity: .7;
+  margin-bottom: 0;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .container {

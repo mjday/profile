@@ -4,15 +4,15 @@
 
 .social-icon {
   font-size: 2.5em;
-  color: #252525;
+  color: #336e7b;
 }
 
 .line-inline a {
-  color: #252525;
+  color: #336e7b;
 }
 
 .social-icon:hover {
-  color: #a80038;
+  color: #252525;
   transform: rotate(90deg);
 }
 
