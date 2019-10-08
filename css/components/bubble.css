@@ -1,5 +1,5 @@
 .circular-sb {
-  width: 250px;
+  width: 60%;
   border: 5px solid #336e7b;
   padding: 80px 0px;
   margin: 30px auto;
@@ -13,7 +13,7 @@
 .circle3 {
   border: 5px solid #336e7b;
   position: absolute;
-  width: 25px;
+  width: ;
   padding: 20px;
   border-radius: 50%;
   left: -10px;
@@ -23,7 +23,7 @@
 .circle3:before {
   content: "";
   position: absolute;
-  width: 25px;
+  width: 10%;
   padding: 20px;
   border-radius: 50%;
   right: 0px;
@@ -34,7 +34,7 @@
 .circle4 {
   border: 5px solid #336e7b;
   position: absolute;
-  width: 5px;
+  width: 2%;
   padding: 10px 15px;
   border-radius: 50%;
   left: -60px;
