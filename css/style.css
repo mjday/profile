@@ -17,17 +17,17 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.8em;
 }
 
 h2 {
-  color: #17223b;
-  font-size: 2.5em;
+  color: #252525;
+  font-size: 2.2em;
 }
 
 h3 {
-  color: #17223b;
-  font-size: 2em;
+  color: #252525;
+  font-size: 1.8em;
 }
 
 p {
@@ -70,6 +70,10 @@ h3::before {
 .smaller {
   font-size: 0.9em;
   opacity: .9;
+}
+
+.sub-head {
+  font-size: 1.5em;
 }
 
 @media (min-width: 1200px){
